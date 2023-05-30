@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(24, 41, 58);
+}
+
+h1 {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+    
+    
+}
+
+#task-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#add-task-btn {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.task-item .task-text {
+    flex-grow: 1;
+    margin-right: 5px;
+    text-decoration: none;
+}

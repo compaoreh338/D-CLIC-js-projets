@@ -1,4 +1,4 @@
-// Ouvrir la page modale en cliquant sur le bouton
+ // Ouvrir la page modale en cliquant sur le bouton
 var openModalButton = document.getElementById("openModal");
 var modal = document.getElementById("myModal");
 
